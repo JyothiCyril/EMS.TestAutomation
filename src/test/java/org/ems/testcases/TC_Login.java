@@ -1,12 +1,17 @@
 package org.ems.testcases;
 
-import org.testng.annotations.Test;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 
 public class TC_Login extends TestBase{
 	
-	@Test
+	@BeforeMethod
 	public void Login() {
 		// Login Action
+	}
+	@AfterMethod
+	public void Logout() {
+		
 	}
 
 }
